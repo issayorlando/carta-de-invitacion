@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#263c33">
+    <meta name="description" content="Issa y Orlando · 6 de febrero de 2027 · Nuestra boda">
+    <title>Issa & Orlando | Nuestra boda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500;600&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <video class="wall-video" id="bgvideo" muted autoplay loop playsinline poster="assets/foto2.jpg">
+        <source src="assets/video.mp4" type="video/mp4">
+    </video>
+    <div class="wall-tint"></div>
+    <button id="musicBtn" class="music-control" type="button" aria-label="Activar música">♫ <span>Activar música</span></button>
+    <audio id="music" src="assets/musica.mp3" loop preload="none"></audio>
+    <main>
+        <header class="cover frame">
+            <div class="cover-shade"></div>
+            <div class="cover-body">
+                <div class="eyebrow light">CON LA BENDICIÓN DE DIOS</div>
+                <h1>Issa <em>&</em> Orlando</h1>
+                <div class="line-light"></div>
+                <p>Tenemos el honor de invitarte a celebrar nuestra boda</p>
+                <div class="cover-date">SÁBADO · 06 FEBRERO · 2027</div>
+            </div><a class="scroll" href="#padres">Desliza para descubrir más <span>↓</span></a></header>
+        <section id="padres" class="frame">
+            <div class="paper centered parents-paper"><span class="leaf">❧</span>
+                <div class="eyebrow">CON EL AMOR DE NUESTRAS FAMILIAS</div>
+                <h2>Nuestros padres</h2>
+                <p class="small">Padres de la novia</p>
+                <p class="script-name">Brenda Elizabeth Centeno Gonzales
+                    <br>Octavio Francisco Román Segura</p>
+                <div class="divider-ornament">✦</div>
+                <p class="small">Padres del novio</p>
+                <p class="script-name">Víctor Manuel Hernández Esquivel
+                    <br>Reyna Sánchez Moreno</p>
+            </div>
+        </section>
+        <section class="solid intro">
+            <div class="narrow">
+                <div class="verse-card"><span class="eyebrow">DIOS ES AMOR</span>
+                    <h2>Una promesa, un camino juntos</h2>
+                    <p class="quote">“El que no ama, no ha conocido a Dios; porque Dios es amor.”</p>
+                    <p class="small">1 Juan 4:8 · RVR1960</p>
+                </div>
+                
+            </div>
+        </section>
+        <section class="frame">
+            <div class="paper centered"><span class="eyebrow">NOS ENCONTRAMOS EN EL BOSQUE</span>
+                <h2>El gran día</h2>
+                <div class="date-isolated">
+                    <div class="date-large">06<span style="font-size: 2rem;">FEBRERO</span>2027</div>
+                </div>
+                <div class="bigtime">10:30 a. m.</div>
+                <p class="eyebrow" style="text-transform: uppercase;">La ceremonia cristiana y la celebración se realizarán en espacios cercanos, rodeados de naturaleza.</p><a class="btn" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/om4BrLHH9a5ig4CP6?g_st=iw">⌖ Ver ubicación</a>
+                <div
+                class="calendar-links">
+                    <button class="plainlink" id="gcal">Agregar a Google Calendar</button>
+                    <button class="plainlink" id="ics">Agregar a Apple / Outlook</button>
+            </div>
+            </div>
+        </section>
+        <section class="solid countdown">
+            <div class="narrow"><span class="eyebrow">CONTANDO LOS DÍAS</span>
+                <h2>Faltan...</h2>
+                <div id="clock" class="clock">
+                    <div><b id="days">—</b><small>DÍAS</small></div>
+                    <div><b id="hours">—</b><small>HORAS</small></div>
+                    <div><b id="minutes">—</b><small>MINUTOS</small></div>
+                    <div><b id="seconds">—</b><small>SEGUNDOS</small></div>
+                </div>
+            </div>
+        </section>
+        <section class="frame"></section>
+        <section class="solid story"><span class="eyebrow">UN POCO DE NUESTRA HISTORIA</span>
+            <h2>Nosotros</h2>
+            <p>Momentos que nos trajeron hasta aquí</p>
+            <div class="photo-strip" id="photos">
+                <img src="assets/foto2.jpg" alt="Issa y Orlando contemplando las montañas">
+                <img src="assets/foto1.jpg" alt="Issa y Orlando en un paisaje verde">
+                <img src="assets/foto3.jpg" alt="Un recuerdo en el bosque">
+                <img src="assets/foto4.jpg" alt="Un recuerdo en fotografía instantánea">
+                <img src="assets/foto5.jpg" alt="Juntos durante un atardecer">
+                <img src="assets/foto6.jpg" alt="Una tarde especial">
+                <img src="assets/foto7.jpg" alt="Issa y Orlando en un nuevo recuerdo">
+                <img src="assets/foto8.jpg" alt="Issa y Orlando en otro momento especial">
+                <img src="assets/foto9.jpg" alt="Issa y Orlando juntos">
+            </div>
+            <p
+            class="tiny">Desliza las fotografías para conocer nuestra historia</p>
+        </section>
+        <section class="frame">
+            <div class="paper left"><span class="eyebrow">ALGUNAS RECOMENDACIONES</span>
+                <h2>Dress Code</h2>
+                <div class="dress-reference"><img src="assets/codigo-vestimenta.png" alt="Código de vestimenta formal campestre: tonos naturales para invitados, blanco reservado para la novia, lila para damas y azul del novio" loading="lazy">
+                    <p class="small">Formal campestre · El blanco está reservado para la novia y el lila para las damas de honor.</p>
+                </div>
+            </div>
+        </section>
+        <section class="frame solid">
+            <div class="paper left"><span class="eyebrow">ALGUNAS RECOMENDACIONES</span>
+                <h2>Para disfrutar el día</h2>
+                <div class="detail"><span class="detail-icon">♧</span>
+                    <div>
+                        <h3>Calzado</h3>
+                        <p>Puedes llevar tus zapatos de fiesta; te recomendamos traer además un par cómodo y seguro, ya que para llegar al lugar se camina por un tramo de terracería y montaña.</p>
+                    </div>
+                </div>
+                <div class="detail"><span class="detail-icon">♧</span>
+                    <div>
+                        <h3>Clima</h3>
+                        <p>El evento será al aire libre. Te recomendamos llevar un abrigo para la mañana y consultar el pronóstico cercano a la fecha.</p><a class="plainlink" target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?q=clima+Ocampo+Michoac%C3%A1n">Consultar clima de la zona</a></div>
+                </div>
+                <div class="detail"><span class="detail-icon">♧</span>
+                    <div>
+                        <h3>Nuestra celebración</h3>
+                        <p>Será una boda cristiana, sin bebidas alcohólicas, acompañada de alabanzas y música clásica.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="frame centered">
+            <div class="paper narrow"><span class="eyebrow">PARA QUIENES NOS VISITAN</span>
+                <h2>Hospedaje</h2>
+                <p>No contaremos con alojamiento proporcionado por los novios. Estas son algunas opciones que pueden consultar y reservar por su cuenta:</p>
+                <div class="stays"><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Parador+El+Asoleadero+Michoacan">Parador El Asoleadero ↗</a><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hotel+Los+Alzanttti+Michoacan">Hotel Los Alzanttti ↗</a>
+                    <a
+                    target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hotel+Villa+Monarca+Michoacan">Hotel Villa Monarca ↗</a>
+                </div>
+                <p class="small">Si necesitas más alternativas, comunícate con nosotros.</p>
+            </div>
+        </section>
+        <section class="frame"></section>
+        <section class="solid gifts">
+            <div class="narrow"><span class="eyebrow">CON MUCHO CARIÑO</span>
+                <h2>Mesa de regalos</h2>
+                <p>Tu presencia es nuestro regalo más especial. Si deseas tener un detalle con nosotros, puedes consultar nuestras mesas de regalos.</p>
+                <div class="gift-buttons"><a class="btn" href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/60067961" target="_blank" rel="noopener noreferrer">Mesa de regalos Liverpool</a><a class="btn" href="https://www.amazon.com.mx/wedding/guest-view/2JD75EUXSS66G"
+                    target="_blank" rel="noopener noreferrer">Mesa de regalos Amazon</a></div>
+            </div>
+        </section>
+        <section class="frame">
+            <div class="paper centered rsvp"><span class="eyebrow">CONFIRMACIÓN DE ASISTENCIA</span>
+                <h2>¿Nos acompañas?</h2>
+                <p>Por favor, confirma a más tardar el <strong>martes 10 de noviembre de 2026</strong>.</p>
+                <div id="rsvp-status" class="notice">Cargando tu invitación...</div>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSepFgtdQk3RhrtOdWsOA777LoxdB5G64ALqvhxQi6eJXJjn4w/viewform?usp=header" target="_blank"><button class="learn-more"> Confirmar Asistencia </button></a>
+                <div id="rsvp-content" hidden>
+                    <h3 id="family-name"></h3>
+                    <p id="family-cap"></p>
+                    <p class="small">Los lugares están reservados únicamente para los integrantes de tu invitación.</p>
+                    <form id="rsvp-form">
+                        <!-- From Uiverse.io by Madflows --> 
+                        <div class="choice">
+                            <label>
+                                <input type="radio" name="going" value="yes" checked> Sí, asistiremos</label>
+                            <label>
+                                <input type="radio" name="going" value="no"> No podremos asistir</label>
+                        </div>
+                        <fieldset id="people-list">
+                            <legend>Selecciona quiénes asistirán</legend>
+                            <div id="people"></div>
+                        </fieldset>
+                        <label class="notes">Mensaje opcional
+                            <textarea id="message" maxlength="400" placeholder="Escribe aquí..." rows="3"></textarea>
+                        </label>
+                        <button class="btn solidbtn" type="submit" id="submit-rsvp">Enviar confirmación</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer><span class="small">CON AMOR</span>
+            <div class="footer-names">Issa & Orlando</div>
+            <div>6 · 02 · 2027</div>
+        </footer>
+    </main>
+    <dialog id="lightbox">
+        <button id="closebox" aria-label="Cerrar">×</button><img id="lightboximg" alt="Fotografía ampliada"></dialog>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
