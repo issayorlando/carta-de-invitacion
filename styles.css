@@ -191,6 +191,7 @@ a{
     letter-spacing:.3em;
     margin:0 12px
 }
+
 .bigtime{
     font-size:4.3rem;
     color:#4c6a55;
@@ -199,6 +200,11 @@ a{
 .bigtime small{
     font-size:1.4rem
 }
+
+.date-isolated span {
+        font-size: 2rem;
+    }
+
 .location-name{
     font-weight:500
 }
@@ -511,6 +517,10 @@ button.learn-more:active::before {
     }
     .clock{
         gap:10px
+    }
+
+    .date-isolated span {
+        font-size: 1rem;
     }
 }
 @media(prefers-reduced-motion:reduce){
